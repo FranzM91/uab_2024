@@ -1,7 +1,7 @@
 Fecha: 22/02/2024
     ## https://onecompiler.com/sqlserver/
 
-Fecha: 29/02/2024
+Fecha: 29/02/2024.
     1 Mostrar una suma de 2 Numeros.
     2 Mostrar una resta de 2 Numeros.
     3 Mostrar una multiplicacion de 2 Numeros.
