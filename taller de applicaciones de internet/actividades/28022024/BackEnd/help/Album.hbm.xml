@@ -4,7 +4,7 @@
 				   namespace="Spotify..Server.Mappings" 
 				   default-lazy="false"
 				   default-cascade="none">
-	<class name="Spotify..Server.Entities.Album" table="Album">
+	<class name="Spotify.Server.Entities.Album" table="Album">
 		<id name="Id" column="AlbumId" type="Int32" unsaved-value="0">
 			<generator class="native" />
 		</id>
