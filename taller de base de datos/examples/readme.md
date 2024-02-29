@@ -7,7 +7,7 @@ Fecha: 29/02/2024.
     1 Mostrar una suma de 2 Numeros.
     2 Mostrar una resta de 2 Numeros.
     3 Mostrar una multiplicacion de 2 Numeros.
-    4 Mostrar una divicion de 2 Numeros.
+    4 Mostrar una division de 2 Numeros.
 
     5 Creata una tabla "Facultad" con las columnas:
         | IdFacultad | NombreFacultad | TotalEstudiantes | EstaActivo | FechaDeCracion |
