@@ -6,6 +6,15 @@ Fecha: 28/02/2024
             lo que se espera ver es: 
                 - Base de Datos (Postgres, MySQL, SQL Server, etc.)
                 - BackEnd (PHP, NodeJS, .Net, NestJS), 
+                    - Business
+                        ArtistaBusiness
+                    - Data
+                        - contracts
+                            IArtistaDao
+                        ArtistaDao
+                    - Entities
+                        Artistat
+                    - Mappings
+                        Artista.hbm.xml (Build Action - Embedded Resource)
                 - FrontEnd (Angular, React, Mobile, etc).
 Fecha: 29/02/2024
-    -
