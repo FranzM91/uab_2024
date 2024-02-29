@@ -2,13 +2,12 @@ Fecha: 22/02/2024
     ## https://onecompiler.com/sqlserver/
 
 Fecha: 29/02/2024.
-
-
+    ## Actividad realizado en clases.
+    
     1 Mostrar una suma de 2 Numeros.
     2 Mostrar una resta de 2 Numeros.
     3 Mostrar una multiplicacion de 2 Numeros.
     4 Mostrar una division de 2 Numeros.
-
     5 Creata una tabla "Facultad" con las columnas:
         | IdFacultad | NombreFacultad | TotalEstudiantes | EstaActivo | FechaDeCracion |
         - El IdFacultad debe ser autoincremental.
