@@ -12,7 +12,7 @@ Fecha: 29/02/2024.
         | IdFacultad | NombreFacultad | TotalEstudiantes | EstaActivo | FechaDeCracion |
         - El IdFacultad debe ser autoincremental.
     6 Insertar 10 facultades en la tabla Facultad con el EstadoActivo = Si/TRUE ejemplo:
-        - (Ing. de Sistemas, 240, Si, 02/22/2024, 02/22/2024)
+        - (Ing. de Sistemas, 240, Si, 02/22/2024)
     7 Insertar 2 facultades en la tabla Facultad con el EstadoActivo = No/False ejemplo:
         - (INSA, 500, No, 02/22/2024, 02/22/2024)
     8 Mostrar todos los datos registrados en la tabla Facultad.
