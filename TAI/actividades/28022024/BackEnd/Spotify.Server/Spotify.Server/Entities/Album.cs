@@ -9,6 +9,6 @@ namespace Spotify.Server.Entities
         public string Portada { get; set; }
         public int AnioLanzamiento { get; set; }
         public string Descripcion { get; set; }
-        public List<Artista> Artista { get; set; }
+        public Artista Artista { get; set; }
     }
 }
