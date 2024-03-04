@@ -1,8 +1,8 @@
-Fecha: 22/02/2024
-    ## https://onecompiler.com/sqlserver/
+## Fecha: 22/02/2024
+### https://onecompiler.com/sqlserver/
 
-Fecha: 29/02/2024.
-    ## Actividad realizado en clases.
+## Fecha: 29/02/2024.
+### Actidad de clases.
     
     1 Mostrar una suma de 2 Numeros.
     2 Mostrar una resta de 2 Numeros.
@@ -29,4 +29,16 @@ Fecha: 29/02/2024.
     20 Mostrar datos utilizando el operador NOT IN basado en la columna TotalEstudiantes
     21 Mostrar datos utilizando el operador IN basado en la columna TotalEstudiantes
     22 Mostrar datos utilizando el operador LIKE basado en la columna NombreFacultad
+    -
+## Fecha: 07/03/2024.
+### Actidad de clases.
+    - 
+## Fecha: 14/03/2024.
+### Actidad de clases.
+    - 
+## Fecha: 21/03/2024.
+### Actidad de clases.
+    - 
+## Fecha: 28/03/2024.
+### Actidad de clases.
     -
