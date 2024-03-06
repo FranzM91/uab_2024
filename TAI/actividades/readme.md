@@ -17,4 +17,7 @@ Fecha: 28/02/2024
                     - Mappings
                         Artista.hbm.xml (Build Action - Embedded Resource)
                 - FrontEnd (Angular, React, Mobile, etc).
-Fecha: 29/02/2024
+Fecha: 03/03/2024
+    - Actividad:
+        Use: SyndicationFeed.
+Fecha: 04/03/2024
