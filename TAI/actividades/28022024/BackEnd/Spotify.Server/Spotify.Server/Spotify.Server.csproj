@@ -44,8 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\AlbumBusiness.cs" />
     <Compile Include="Business\ArtistaBusiness.cs" />
+    <Compile Include="Data\AlbumDao.cs" />
     <Compile Include="Data\ArtistaDao.cs" />
+    <Compile Include="Data\Contracts\IAlbumDao.cs" />
     <Compile Include="Data\Contracts\IArtistaDao.cs" />
     <Compile Include="Entities\Album.cs" />
     <Compile Include="Entities\Artista.cs" />

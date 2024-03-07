@@ -10,7 +10,7 @@ namespace Spotify.Server.Data
     {
         public int returnInt()
         {
-            return 1;
+            return 2024;
         }
 
         public List<Artista> SerachByFilter(string filter)

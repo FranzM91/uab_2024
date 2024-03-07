@@ -1,6 +1,7 @@
 ﻿using Spotify.Server.Data;
 using Spotify.Server.Data.Contracts;
 using Spotify.Server.Entities;
+using System.Collections.Generic;
 
 namespace Spotify.Server.Business
 {
@@ -24,6 +25,16 @@ namespace Spotify.Server.Business
         public void Delete(Artista entity)
         {
             repositoryArtista.Delete(entity);
+        }
+
+        public int returnIntValue()
+        {
+            return repositoryArtista.returnInt();
+        }
+
+        public List<Artista> searchByFilter(string filter)
+        {
+            return repositoryArtista.SerachByFilter(filter);
         }
     }
 }
