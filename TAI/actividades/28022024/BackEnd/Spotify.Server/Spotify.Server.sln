@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Server", "Spotify.Server\Spotify.Server.csproj", "{30070DB3-1CE3-4A8A-8E3E-F7D6D47879DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Test", "Spotify.Test\Spotify.Test.csproj", "{8C6F86F6-CB45-4CEB-B9E6-C35B9DC60FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{30070DB3-1CE3-4A8A-8E3E-F7D6D47879DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30070DB3-1CE3-4A8A-8E3E-F7D6D47879DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30070DB3-1CE3-4A8A-8E3E-F7D6D47879DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6F86F6-CB45-4CEB-B9E6-C35B9DC60FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6F86F6-CB45-4CEB-B9E6-C35B9DC60FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6F86F6-CB45-4CEB-B9E6-C35B9DC60FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6F86F6-CB45-4CEB-B9E6-C35B9DC60FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\help\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,15 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\ArtistaBusiness.cs" />
+    <Compile Include="Data\ArtistaDao.cs" />
+    <Compile Include="Data\Contracts\IArtistaDao.cs" />
     <Compile Include="Entities\Album.cs" />
     <Compile Include="Entities\Artista.cs" />
     <Compile Include="Data\GenericDao.cs" />
     <Compile Include="Data\Contracts\IGenericDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Business\" />
-    <Folder Include="Mappings\" />
+    <EmbeddedResource Include="Mappings\Album.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Artista.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
