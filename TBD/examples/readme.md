@@ -55,7 +55,7 @@
     7 De la tabla Estudiantes obtener aquellos que el primer apellido comience por la A..
     8 Obtener todos los estuantes de la tabla Estudiantes donde el Ci no sea de 9 dígitos.
     9 Devolver todos los Estudiantes que su Fecha_Aprobacion no sea inferior a 2000 y tenga Tip_Carnet B.
-    10 Obtener los primeros 5 digitos del numero de Ci del Estudiante RAFA.
+    10 Buscar por Ci donde el penultimo digito que sea igual a 2.
     -
 ## Fecha: 14/03/2024.
 ### Actidad de clases.
