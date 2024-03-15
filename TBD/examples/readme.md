@@ -74,19 +74,25 @@
     Se desea mantener también información sobre las habilidades de los empleados (por ejemplo, mercadotecnia, trato con el cliente, fresador, operador de telefonía,etc…). 
     Cada habilidad tendrá una descripción y un código”. 
     
-    Un empleado está asignado a un único departamento. Un departamento estará compuesto por uno o más empleados. Cada departamento se ubica en un único centro de trabajo. Estos se componen de uno o más departamentos. Un empleado puede tener varios hijos. Un empleado puede tener varias habilidades, y una misma habilidad puede ser poseída por empleados diferentes. Un centro de trabajo es dirigido por un empleado. Un mismo empleado puede dirigir centros de trabajo distintos.
+    Un empleado está asignado a un único departamento. Un departamento estará compuesto por uno o más empleados.
+
+    Cada departamento se ubica en un único centro de trabajo. Estos se componen de uno o más departamentos.
+
+    Un empleado puede tener varios hijos. Un empleado puede tener varias habilidades, y una misma habilidad puede ser poseída por empleados diferentes.
+     
+    Un centro de trabajo es dirigido por un empleado. Un mismo empleado puede dirigir centros de trabajo distintos.
 
     Preguntas:
-    1. Consulta con UPPERCASE: ¿Cómo puedes mostrar el nombre de todos los departamentos en mayúsculas?
-    2. Consulta con LOWERCASE: ¿Cuál es la población de todos los centros de trabajo en minúsculas?
-    3. Consulta con DATE: ¿Cuál es la fecha de alta del empleado con NIF 'NIF_Empleado_2'?
-    4. Consulta con WHERE: ¿Cuántos empleados tienen más de 1 hijo?
-    5. Consulta con UPDATE: Actualiza el salario del empleado con NIF 'NIF_Empleado_1' a 38000.
-    6. Consulta con DELETE: Elimina todos los hijos del empleado con NIF 'NIF_Empleado_3'.
-    7. Consulta con INSERT: Inserta un nuevo empleado con Teléfono='111111111', FechaAlta='2022-01-01', NIF='NIF_Empleado_4', Nombre='Laura Martínez', NumeroHijos=0, Salario=32000, DepartamentoCodigo=1, CentroTrabajoCodigo=1.
-    8. Consulta combinando UPPERCASE y LOWERCASE: ¿Cuál es el nombre del empleado con NIF 'NIF_Empleado_3' en mayúsculas y el nombre del departamento al que está asignado en minúsculas?
-    9. Consulta combinando DATE y WHERE: ¿Cuál es la fecha de alta de todos los empleados que fueron contratados después del 1 de enero de 2021?
-    Consulta combinando UPDATE y WHERE: Actualiza el salario de todos los empleados en el departamento con código 2 a 42000.
+    1. ¿Cómo puedes mostrar el nombre de todos los departamentos en mayúsculas?
+    2. ¿Cuál es la población de todos los centros de trabajo en minúsculas?
+    3. ¿Cuál es la fecha de alta del empleado con NIF 'NIF_Empleado_2'?
+    4. ¿Cuántos empleados tienen más de 1 hijo?
+    5. Actualiza el salario del empleado con NIF 'NIF_Empleado_1' a 38000.
+    6. Elimina todos los hijos del empleado con NIF 'NIF_Empleado_3'.
+    7. Inserta un nuevo empleado con Teléfono='111111111', FechaAlta='2022-01-01', NIF='NIF_Empleado_4', Nombre='Laura Martínez', NumeroHijos=0, Salario=32000, DepartamentoCodigo=1, CentroTrabajoCodigo=1.
+    8. ¿Cuál es el nombre del empleado con NIF 'NIF_Empleado_3' en mayúsculas y el nombre del departamento al que está asignado en minúsculas?
+    9. ¿Cuál es la fecha de alta de todos los empleados que fueron contratados después del 1 de enero de 2021?
+    10. Actualiza el salario de todos los empleados en el departamento con código 2 a 42000.
 
 ## Fecha: 21/03/2024.
 ### Actidad de clases.
