@@ -24,6 +24,9 @@
         - api/artista/
             - getall
             - getbyartista
+
+## HTTP Codes
+    - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 ## Fecha: 03/03/2024
 
     - Actividad:
