@@ -19,8 +19,11 @@
                     - Mappings
                         Artista.hbm.xml (Build Action - Embedded Resource)
                 - FrontEnd (Angular, React, Mobile, etc).
-    - EndPoint
+    - EndPoint URL
         - https://e019-181-115-134-216.ngrok-free.app
+        - api/artista/
+            - getall
+            - getbyartista
 ## Fecha: 03/03/2024
 
     - Actividad:
