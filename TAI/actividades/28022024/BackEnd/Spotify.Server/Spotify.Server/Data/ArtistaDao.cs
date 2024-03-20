@@ -8,9 +8,11 @@ namespace Spotify.Server.Data
 {
     public class ArtistaDao : GenericDao<Artista>, IArtistaDao
     {
-        public int returnInt()
+        public List<Artista> GetAll()
         {
-            return 2024;
+            var result = session.QueryOver<Artista>()
+               .List().ToList();
+            return result;
         }
 
         public List<Artista> SerachByFilter(string filter)

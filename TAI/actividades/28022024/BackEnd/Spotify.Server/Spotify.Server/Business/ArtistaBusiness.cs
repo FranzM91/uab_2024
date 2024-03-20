@@ -13,9 +13,9 @@ namespace Spotify.Server.Business
             repositoryArtista = new ArtistaDao();
         }
 
-        public Artista GetAll(int entityId)
+        public List<Artista> GetAll()
         {
-            return repositoryArtista.GetById(entityId);
+            return repositoryArtista.GetAll();
         }
 
         public Artista Save(Artista entity)
@@ -25,11 +25,6 @@ namespace Spotify.Server.Business
         public void Delete(Artista entity)
         {
             repositoryArtista.Delete(entity);
-        }
-
-        public int returnIntValue()
-        {
-            return repositoryArtista.returnInt();
         }
 
         public List<Artista> searchByFilter(string filter)

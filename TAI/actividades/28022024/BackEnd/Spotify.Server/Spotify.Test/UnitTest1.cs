@@ -2,6 +2,7 @@
 using Spotify.Server.Business;
 using Spotify.Server.Entities;
 using System;
+using System.Linq;
 
 namespace Spotify.Test
 {
@@ -21,8 +22,8 @@ namespace Spotify.Test
         [TestMethod]
         public void Get()
         {
-            var result = repository.GetAll(1);
-            Assert.IsTrue(result.Id != 0);
+            var result = repository.GetAll();
+            Assert.IsTrue(result.Count != 0);
         }
         [TestMethod]
         public void Save()
@@ -39,12 +40,12 @@ namespace Spotify.Test
             Assert.IsTrue(result.Id != 0);
         }
 
-        [TestMethod]
-        public void returnInt()
-        {
-            var result = repository.returnIntValue();
-            Assert.IsTrue(result != 0);
-        }
+        //[TestMethod]
+        //public void returnInt()
+        //{
+        //    var result = repository.returnIntValue();
+        //    Assert.IsTrue(result != 0);
+        //}
 
         [TestMethod]
         public void SearchByFilter()
