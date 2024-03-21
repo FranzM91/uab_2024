@@ -96,7 +96,60 @@
 
 ## Fecha: 21/03/2024.
 ### Actidad de clases.
-    - 
+    -- Crear tabla Artista
+    CREATE TABLE Artista (
+        Id INT IDENTITY(1,1) PRIMARY KEY,
+        NombreArtistico VARCHAR(50),
+        Nacionalidad VARCHAR(50)
+    );
+
+    -- Crear tabla Album
+    CREATE TABLE Album (
+        Id INT IDENTITY(1,1) PRIMARY KEY,
+        Titulo VARCHAR(50),
+        Portada VARCHAR(50),
+        ArtistaId INT,
+        FOREIGN KEY(ArtistaId) REFERENCES Artista(Id)
+    );
+    - Insertar estos registros
+    -- Insertar 10 registros en la tabla Artista
+INSERT INTO Artista (NombreArtistico, Nacionalidad)
+VALUES
+    ('Shakira', 'Colombiana'),
+    ('The Beatles', 'Británica'),
+    ('Michael Jackson', 'Estadounidense'),
+    ('Adele', 'Británica'),
+    ('Queen', 'Británica'),
+    ('Elton John', 'Británica'),
+    ('Madonna', 'Estadounidense'),
+    ('Pink Floyd', 'Británica'),
+    ('Bob Marley', 'Jamaicana'),
+    ('David Bowie', 'Británica');
+
+-- Insertar 10 registros en la tabla Album
+INSERT INTO Album (Titulo, Portada, ArtistaId)
+VALUES
+    ('El Dorado', 'eldorado.jpg', 1),
+    ('Abbey Road', 'abbeyroad.jpg', 2),
+    ('Thriller', 'thriller.jpg', 3),
+    ('21', '21.jpg', 4),
+    ('Bohemian Rhapsody', 'bohemianrhapsody.jpg', 5),
+    ('Goodbye Yellow Brick Road', 'yellowbrickroad.jpg', 6),
+    ('Like a Virgin', 'likeavirgin.jpg', 7),
+    ('The Dark Side of the Moon', 'darksideofthemoon.jpg', 8),
+    ('Legend', 'legend.jpg', 9),
+    ('The Rise and Fall of Ziggy Stardust', 'ziggy.jpg', 10);
+## Preguntas
+    1. mostrar el nombre artístico del artista y el título de cada álbum que ha lanzado.
+    2. mostrar todos los artistas y los títulos de los álbumes que han lanzado, incluso si no tienen álbumes asociados
+    3. mostrar todos los álbumes y los nombres artísticos de los artistas que los lanzaron, incluso si no tienen artistas asociados
+    4. mostrar todos los artistas y álbumes, incluso si no tienen correspondencia entre sí
+    5. mostrar los artistas británicos y sus álbumes correspondientes.
+    6. mostrar los artistas que no tienen álbumes asociados
+    7. mostrar los álbumes lanzados por artistas estadounidenses
+    8. mostrar los artistas y álbumes donde los álbumes no tienen una portada definida
+    9. ordenamiento por título de álbum de forma descendente
+    10. Agrupar para contar el número de álbumes por cada artista
 ## Fecha: 28/03/2024.
 ### Actidad de clases.
     -
