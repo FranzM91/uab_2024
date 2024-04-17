@@ -3,6 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
     template: `
     <h1>DashBoard</h1> 
+    
+    <a routerLink='/home' >Home Component</a>
+
     <button pButton 
     type="button" 
     icon="pi pi-plus" 

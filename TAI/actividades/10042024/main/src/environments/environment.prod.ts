@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serviceUrl: 'https://localhost:44377/api'
+  serviceUrl: 'https://fd60-190-129-199-203.ngrok-free.app/api/artista/getall'
 };

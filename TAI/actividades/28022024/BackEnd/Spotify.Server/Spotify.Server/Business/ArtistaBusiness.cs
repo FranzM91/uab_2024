@@ -21,8 +21,8 @@ namespace Spotify.Server.Business
 
         public Artista Save(Artista entity)
         {
-            if (repositoryArtista.existArtista(entity))
-                throw new Exception("Nombre Artistico ya existe!");
+            //if (repositoryArtista.existArtista(entity))
+            //    throw new Exception("Nombre Artistico ya existe!");
             return repositoryArtista.Save(entity);
         }
         public void Delete(Artista entity)
