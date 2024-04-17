@@ -1,0 +1,21 @@
+<h1>Hola mundo TAI</h1>
+<p-toast></p-toast>
+
+<h1>{{contador}}</h1>
+<button pButton 
+    type="button" 
+    icon="pi pi-plus" 
+    iconPos="left" 
+    label="More" 
+    class="p-button-success" (click)="contadorMethod()"></button>
+<button pButton 
+    type="button" 
+    icon="pi pi-minus" 
+    iconPos="left" 
+    label="Minus" 
+    class="p-button-warning" (click)="contadorNegativoMethod()"></button>
+
+<h5>Basic</h5>
+<p-splitButton label="Reset" icon="pi pi-refresh" (onClick)="reset()" [model]="items"></p-splitButton>
+
+<p-speedDial [model]="items" direction="right"></p-speedDial>

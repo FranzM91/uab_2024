@@ -32,6 +32,13 @@
     - Actividad:
         Use: SyndicationFeed.
 ## Fecha: 04/03/2024
-    
-    - Actividad:
+    -  Actividad:
         Use: SyndicationFeed.
+## Fecha: 04/17/2024
+    -  Actividad:
+        * Crear rutas.
+        * Crear Dashboard component.
+        * Crear Auth component.
+        * Use de Guard.
+        * Crear CRUD de Artista.
+        * Use Pipe

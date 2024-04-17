@@ -16,7 +16,7 @@ namespace Spotify.Api.Controllers
 
         [HttpPost]
         [Route("save")]
-        public IHttpActionResult Save(Artista entity)
+        public IHttpActionResult Save([FromBody] Artista entity)
         {
             try
             {
@@ -35,6 +35,13 @@ namespace Spotify.Api.Controllers
         {
             var result = artistaBusiness.GetAll();
             return Ok(result);
+        }
+        [HttpPost]
+        [Route("delete")]
+        public IHttpActionResult DeleteArtista([FromBody] int id)
+        {
+            artistaBusiness.Delete(new Artista() { Id = id});
+            return Ok();
         }
 
         [HttpPost]

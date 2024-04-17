@@ -7,6 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { StyleClassModule } from 'primeng/styleclass';
 import { AppComponent } from './app.component';
+import { ButtonModule } from 'primeng/button';
+import { SplitButtonModule } from 'primeng/splitbutton';
+import { ToastModule } from 'primeng/toast';
+import { SpeedDialModule } from 'primeng/speeddial';
+import { ArtistaListComponent } from './components/artistas/artista-list/artista-list.component';
 
 @NgModule({
     imports: [
@@ -17,10 +22,15 @@ import { AppComponent } from './app.component';
         BrowserAnimationsModule,
         StyleClassModule,
         // import Module from PrimeNG
+        ButtonModule,
+        SplitButtonModule,
+        ToastModule,
+        SpeedDialModule
     ],
     declarations: [
         AppComponent,
         // declare my components
+        ArtistaListComponent
     ],
     providers: [
         { provide: LocationStrategy, useClass: HashLocationStrategy },
