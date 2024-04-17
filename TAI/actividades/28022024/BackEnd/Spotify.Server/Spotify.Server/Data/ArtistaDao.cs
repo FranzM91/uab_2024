@@ -22,5 +22,13 @@ namespace Spotify.Server.Data
                 .List().ToList();
             return result;
         }
+
+        public bool existArtista(Artista data)
+        {
+            var result = session.QueryOver<Artista>()
+                .Where(src => src.Id != data.Id && src.NombreArtistico.ToUpper() == data.NombreArtistico.ToUpper())
+                .List().ToList();
+            return result.Count != 0;
+        }
     }
 }

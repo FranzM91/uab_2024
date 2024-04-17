@@ -7,5 +7,6 @@ namespace Spotify.Server.Data.Contracts
     {
         List<Artista> GetAll();
         List<Artista> SerachByFilter(string filter);
+        bool existArtista(Artista data);
     }
 }

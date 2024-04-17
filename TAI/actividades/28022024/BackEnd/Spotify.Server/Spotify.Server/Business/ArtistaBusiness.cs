@@ -1,6 +1,7 @@
 ﻿using Spotify.Server.Data;
 using Spotify.Server.Data.Contracts;
 using Spotify.Server.Entities;
+using System;
 using System.Collections.Generic;
 
 namespace Spotify.Server.Business
@@ -20,6 +21,8 @@ namespace Spotify.Server.Business
 
         public Artista Save(Artista entity)
         {
+            if (repositoryArtista.existArtista(entity))
+                throw new Exception("Nombre Artistico ya existe!");
             return repositoryArtista.Save(entity);
         }
         public void Delete(Artista entity)

@@ -12,6 +12,7 @@ import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToastModule } from 'primeng/toast';
 import { SpeedDialModule } from 'primeng/speeddial';
 import { ArtistaListComponent } from './components/artistas/artista-list/artista-list.component';
+import { DashBoardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
     imports: [
@@ -30,7 +31,8 @@ import { ArtistaListComponent } from './components/artistas/artista-list/artista
     declarations: [
         AppComponent,
         // declare my components
-        ArtistaListComponent
+        ArtistaListComponent,
+        DashBoardComponent
     ],
     providers: [
         { provide: LocationStrategy, useClass: HashLocationStrategy },
