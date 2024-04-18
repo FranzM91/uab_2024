@@ -152,13 +152,20 @@ VALUES
     10. Agrupar para contar el número de álbumes por cada artista
 ## Fecha: 28/03/2024.
 ### Actidad de clases.
-    - USE uab_2024
-    SELECT cl.IdCliente, cl.NomCliente, cl.DirCliente, pa.NomPais FROM Clientes cl, Paises pa 
-    WHERE cl.IdPais = pa.IdPais
 
-    SELECT * FROM Clientes
-    SELECT * FROM Empleados
-    SELECT * FROM PedidosCabe
+    INSERT Clientes VALUES()
+    Pedro Camargo	    CALLE LUIS MIRO         123	1	3245566
+    Adres Arenas	    Avenida Venezuela       789	1	600303030
+    Santiago Olmos	    Pasaje Sucre            123	1	500202020
+    Juan Salvatierra	Calle Oruro             456	1	400101010
+    Felipe Escobar	    Avenida Potosí          789	2	300000000
+    Bartolome Lazarte	Pasaje Tarija           123	2	200000000
+    Tomas Prado	        Calle La Paz            456	2	100000000
+    Mateo Pocoata	    Avenida Cochabamba      789	3	900000000
+    Jacobo Oporto	    Pasaje Santa Cruz       123	3	800000000
+    Judas Tadeo Nina	Calle Venezuela         456	4	700000000
+    Simon el Zelote	    Avenida Bolivia         789	1	600000000
+    Judas Iscariote	    Pasaje Sucre            123	4	500000000
     --INSERT Distritos VALUES('Vinto Norte'), ('Vinto Sur'), ('Vinto Este'), ('Vinto Oeste')
     --INSERT Cargos VALUES('Supervisor'), ('Secretaria'), ('Contador'), ('Empleado')
     --INSERT Empleados VALUES('Juan','Perez','01-25-2000','calle 1 zona vinto', 1, 800102020, 1, '01-01-2020','c:\image\picture.jpg'),
