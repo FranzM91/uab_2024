@@ -42,3 +42,19 @@
         * Use de Guard.
         * Crear CRUD de Artista.
         * Use Pipe
+## Fecha: 04/24/2024
+    -  Actividad:
+        * https://dartpad.dev/
+        * Tipo de dato: Numeros y Strings
+        * Tipo de dato: Booleanos y condiciones
+        * Tipo de dato: Lista
+        * Tipo de dato: Map
+        * Funciones en Dart
+        * Clases en Dart
+        * Constructores
+        * Getters y Setters
+        * Clases Abstractas
+        * Extends
+        * Mixins
+        * Futures
+        * Async - Await

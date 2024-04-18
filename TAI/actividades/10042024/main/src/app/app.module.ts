@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToastModule } from 'primeng/toast';
+import { TableModule } from 'primeng/table';
 import { SpeedDialModule } from 'primeng/speeddial';
 import { ArtistaListComponent } from './components/artistas/artista-list/artista-list.component';
 import { DashBoardComponent } from './components/dashboard/dashboard.component';
@@ -26,7 +27,8 @@ import { DashBoardComponent } from './components/dashboard/dashboard.component';
         ButtonModule,
         SplitButtonModule,
         ToastModule,
-        SpeedDialModule
+        SpeedDialModule,
+        TableModule
     ],
     declarations: [
         AppComponent,

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api/menuitem';
 import { MessageService } from 'primeng/api';
+import { BaseService } from '../../shared/base.service';
 
 @Component({
     templateUrl: './artista-list.component.html',
@@ -10,8 +11,10 @@ import { MessageService } from 'primeng/api';
 export class ArtistaListComponent implements OnInit {
     contador = 0;
     items: MenuItem[];
+    resultItems: [];
     
-    constructor(private messageService: MessageService) {
+    constructor(private messageService: MessageService, public service: BaseService) {
+        this.consumeService();
         this.items = [
             {
                 label: 'More',
@@ -37,6 +40,18 @@ export class ArtistaListComponent implements OnInit {
         ];
     }
 
+    consumeService() {
+        this.service.httpPost().subscribe(
+            response => {
+                this.resultItems = response;
+                console.warn(`Success!!! ${response}`);
+            },
+            error => {
+                console.warn('Error HTTP')
+            }
+        );
+    }
+
     ngOnInit(): void { }
 
     contadorMethod() {
@@ -52,6 +67,7 @@ export class ArtistaListComponent implements OnInit {
     reset() {
         this.contador = 0;
         this.showSuccess();
+        this.consumeService();
     }
     showSuccess() {
         console.warn('Show TOAST');

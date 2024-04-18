@@ -12,9 +12,9 @@ export class BaseService {
     
     constructor( public http: HttpClient){}
 
-    public httpPost(param: any, path: string): Observable<any> {
-        let body = JSON.stringify(param);
-        return this.http.post(`${this.url}${path}`, body).pipe(
+    public httpPost(): Observable<any> {
+        let body = JSON.stringify('');
+        return this.http.post(`https://eecc-190-129-199-203.ngrok-free.app/api/artista/getall`, body).pipe(
             tap((res) => { 
                 return res; 
             }),

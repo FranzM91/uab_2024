@@ -1,5 +1,5 @@
 <h1>Hola mundo TAI</h1>
-<p-toast></p-toast>
+<!-- <p-toast></p-toast>
 
 <h1>{{contador}}</h1>
 <button pButton 
@@ -18,4 +18,37 @@
 <h5>Basic</h5>
 <p-splitButton label="Reset" icon="pi pi-refresh" (onClick)="reset()" [model]="items"></p-splitButton>
 
-<p-speedDial [model]="items" direction="right"></p-speedDial>
+<p-speedDial [model]="items" direction="right"></p-speedDial> -->
+
+<div class="grid">
+    <div class="col-12 md:col-12">
+        <div class="grid">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <p-table [value]="resultItems">
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th style="text-align: center;">Artista</th>
+                            <th style="text-align: center;">Nacionalidad</th>
+                            <th style="text-align: center;">Fecha</th>
+                            <th style="text-align: center;">Genero Musical</th>
+                            <th style="text-align: center;">Genero</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-item>
+                        <tr>
+                            <td>{{item.NombreArtistico}}</td>
+                            <td>{{item.Nacionalidad}}</td>
+                            <td style="text-align: center;">{{item.FechaNacimiento | date: 'dd/MM/yyyy'}}</td>
+                            <td>{{item.GeneroMusical}}</td>
+                            <td>{{item.Genero}}</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+    </div>
+</div>
