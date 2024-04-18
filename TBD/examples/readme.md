@@ -178,4 +178,13 @@ VALUES
     --					('Sergio','Vargas','05-27-2006','', 3, 800103030, 3, '01-01-2020', 'c:\image\picture.jpg'),
     --					('Miguel','Castro','04-12-2004','', 4, 800104040, 3, '01-01-2020', 'c:\image\picture.jpg')
     ---------------------------------------------------------------
-    --INSERT PedidosCabe VALUES(1, )
+    --INSERT PedidosCabe VALUES(1, 3, '01-23-2023', '01-25-2023', '01-24-2023', 'T', 'La Paz', 'El Alto s/n'),
+    --						(5, 2, '03-23-2023', '03-25-2023', '03-24-2023', 'A', 'Santa Cruz', '3er anillo s/n')
+    ---------------------------------------------------------------
+    --INSERT Proveedores VALUES('DELL', 'Esteban Arce S/N', 'Sucursal #3', 'Promotor', 4, 800303030, 52800),
+    --						('SONY', 'Esteban Arce S/N', 'Sucursal #2', 'Promotor', 3, 800202020, 43400),
+    --						('ASUS', 'El Gallo #20', 'Sucursal #10', 'Promotor', 2, 9003030, 9400)
+    ---------------------------------------------------------------
+    --INSERT Categorias VALUES('DELL', 'Productos de computo'),
+    --						('SONY', 'Productos de computo'),
+    --						('ASUS', 'Productos de computo')
