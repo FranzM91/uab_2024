@@ -188,3 +188,8 @@ VALUES
     --INSERT Categorias VALUES('DELL', 'Productos de computo'),
     --						('SONY', 'Productos de computo'),
     --						('ASUS', 'Productos de computo')
+    ---------------------------------------------------------------
+    --INSERT Productos VALUES('Teclado', 1, 1, 200, 230, 48, 0),
+    --					   ('Mouse', 1, 1, 60, 80, 24, 0),
+    --					   ('Monitor x24', 1, 1, 800, 1000, 12, 0),
+    --					   ('Notebook x15', 2, 2, 1800, 2100, 12, 0)
