@@ -152,4 +152,17 @@ VALUES
     10. Agrupar para contar el número de álbumes por cada artista
 ## Fecha: 28/03/2024.
 ### Actidad de clases.
-    -
+    - USE uab_2024
+    SELECT cl.IdCliente, cl.NomCliente, cl.DirCliente, pa.NomPais FROM Clientes cl, Paises pa 
+    WHERE cl.IdPais = pa.IdPais
+
+    SELECT * FROM Clientes
+    SELECT * FROM Empleados
+    SELECT * FROM PedidosCabe
+    --INSERT Distritos VALUES('Vinto Norte'), ('Vinto Sur'), ('Vinto Este'), ('Vinto Oeste')
+    --INSERT Cargos VALUES('Supervisor'), ('Secretaria'), ('Contador'), ('Empleado')
+    --INSERT Empleados VALUES('Juan','Perez','01-25-2000','calle 1 zona vinto', 1, 800102020, 1, '01-01-2020','c:\image\picture.jpg'),
+    --					('Maria','Garcia','02-20-2002','', 2, 800105050, 2, '01-01-2020','c:\image\picture.jpg'),
+    --					('Sergio','Vargas','05-27-2006','', 3, 800103030, 3, '01-01-2020', 'c:\image\picture.jpg'),
+    --					('Miguel','Castro','04-12-2004','', 4, 800104040, 3, '01-01-2020', 'c:\image\picture.jpg')
+    --INSERT PedidosCabe VALUES(1, )

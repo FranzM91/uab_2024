@@ -14,7 +14,7 @@ export class BaseService {
 
     public httpPost(): Observable<any> {
         let body = JSON.stringify('');
-        return this.http.post(`https://eecc-190-129-199-203.ngrok-free.app/api/artista/getall`, body).pipe(
+        return this.http.post(`https://7d05-190-11-64-42.ngrok-free.app/api/artista/getall`, body).pipe(
             tap((res) => { 
                 return res; 
             }),
