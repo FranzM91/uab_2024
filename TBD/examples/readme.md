@@ -150,9 +150,11 @@ VALUES
     8. mostrar los artistas y álbumes donde los álbumes no tienen una portada definida
     9. ordenamiento por título de álbum de forma descendente
     10. Agrupar para contar el número de álbumes por cada artista
-## Fecha: 28/03/2024.
+## Fecha: 18/04/2024.
 ### Actidad de clases.
 
+    INSERT Paises VALUES('Bolivia'),('Chile'),('Peru'), ('Brasil')
+    ----------------------------------------------------------------
     INSERT Clientes VALUES()
     Pedro Camargo	    CALLE LUIS MIRO         123	1	3245566
     Adres Arenas	    Avenida Venezuela       789	1	600303030
@@ -166,10 +168,14 @@ VALUES
     Judas Tadeo Nina	Calle Venezuela         456	4	700000000
     Simon el Zelote	    Avenida Bolivia         789	1	600000000
     Judas Iscariote	    Pasaje Sucre            123	4	500000000
+    ---------------------------------------------------------------
     --INSERT Distritos VALUES('Vinto Norte'), ('Vinto Sur'), ('Vinto Este'), ('Vinto Oeste')
+    ---------------------------------------------------------------
     --INSERT Cargos VALUES('Supervisor'), ('Secretaria'), ('Contador'), ('Empleado')
+    ---------------------------------------------------------------
     --INSERT Empleados VALUES('Juan','Perez','01-25-2000','calle 1 zona vinto', 1, 800102020, 1, '01-01-2020','c:\image\picture.jpg'),
     --					('Maria','Garcia','02-20-2002','', 2, 800105050, 2, '01-01-2020','c:\image\picture.jpg'),
     --					('Sergio','Vargas','05-27-2006','', 3, 800103030, 3, '01-01-2020', 'c:\image\picture.jpg'),
     --					('Miguel','Castro','04-12-2004','', 4, 800104040, 3, '01-01-2020', 'c:\image\picture.jpg')
+    ---------------------------------------------------------------
     --INSERT PedidosCabe VALUES(1, )
