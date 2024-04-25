@@ -193,3 +193,55 @@ VALUES
     --					   ('Mouse', 1, 1, 60, 80, 24, 0),
     --					   ('Monitor x24', 1, 1, 800, 1000, 12, 0),
     --					   ('Notebook x15', 2, 2, 1800, 2100, 12, 0)
+## Fecha: 25/04/2024.
+    - Actidades.
+        * Variables
+        * Variables Locales
+        * Variables Públicas
+        * Herramientas para el control de flujos
+        * Funciones especiales de Error
+            * ERROR_NUMBER() Devuelve el numero de error 
+            * ERROR_SEVERITY() Devuelve la severidad del error 
+            * ERROR_STATE() Devuelve el estado del error 
+            * ERROR_PROCEDURE() Devuelve el nombre del procedimiento almacenado que ha provocado el error 
+            * ERROR_LINE() Devuelve el número de línea en la que se ha producido el error. 
+            * ERROR_MESSAGE() Devuelve el mensaje de error
+        * Variables de sistema
+            * @@ERROR en SQL Server
+            * @@IDENTITY en SQL Server
+        * Estructuras de control IF
+            IF (<expression>)  
+                BEGIN 
+                    ... 
+                END 
+            ELSE IF (<expression>) 
+            BEGIN 
+            ... 
+            END 
+            ELSE 
+            BEGIN 
+            ... 
+            END
+        * Estructuras del control TRY CATCH
+            BEGIN TRY 
+                EXPRESION_SQL 
+            END TRY 
+            BEGIN CATCH 
+                EXPRESION_SQL 
+            END CATCH 
+        * Estructura condicional CASE
+            CASE <expresión>
+                WHEN <valor_expresion> THEN <valor_devuelto> 
+                WHEN <valor_expresion1> THEN <valor_devuelto1> 
+                ELSE <valor_devuelto2>  -- Valor por defecto 
+            END 
+        * Usar una instrucción SELECT con una expresión CASE de búsqueda
+        * Estructura de control WHILE
+            WHILE <expresion>   
+                BEGIN 
+                    ... 
+                END 
+        * Control de errores en TRANSACT-SQL
+        * Funciones especiales de ERROR
+        * Variable de sistema @@ERROR
+        * Generar un error RAISERROR
