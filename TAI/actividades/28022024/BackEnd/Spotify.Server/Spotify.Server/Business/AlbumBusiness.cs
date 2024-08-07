@@ -1,11 +1,6 @@
 ﻿using Spotify.Server.Data;
 using Spotify.Server.Data.Contracts;
 using Spotify.Server.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Spotify.Server.Business
 {
